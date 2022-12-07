@@ -40,12 +40,14 @@ public class Main {
 
 // ДЗ4
         Hw4 rw = new Hw4();
-//        String srcS = "the sky is blue";
+
+        //        String srcS = "the sky is blue";
 //        String srcS = "  hello world  ";
-//
-//        out.println(srcS);
-//        srcS = rw.reverseWords(srcS);
-//        out.println(srcS);
+        String srcS = "a good   example";
+
+        out.println(srcS);
+        srcS = rw.reverseWords(srcS);
+        out.printf("'%s'", srcS);
 
     }
 }
