@@ -16,7 +16,7 @@ public class Main {
         int m = 1;
         int n = 1;
         Hw1 Mrg = new Hw1();
-        Mrg.merge2(nums1, m, nums2, n);
+        Mrg.merge(nums1, m, nums2, n);
         out.println(Arrays.toString(nums1));
 
 // ДЗ2
